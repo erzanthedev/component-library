@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background-color: grey;
 }
 
 main {
@@ -12,4 +12,20 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+/* Badges */
+
+.badge {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 2px 12px;
+}
+
+.badge-grey-square {
+  background-color: #f3f4f6;
+  border-radius: 4px;
+  color: #1f2937;
 }

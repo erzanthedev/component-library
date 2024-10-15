@@ -1,5 +1,10 @@
+import Badge from "./components/badges/Badge";
 function App() {
-  return <main>Componenet Library</main>;
+  return (
+    <main>
+      <Badge>Badge</Badge>
+    </main>
+  );
 }
 
 export default App;
