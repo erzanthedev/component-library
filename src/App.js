@@ -1,5 +1,5 @@
 function App() {
-  return <div className="App"></div>;
+  return <main>Componenet Library</main>;
 }
 
 export default App;
