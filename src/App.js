@@ -2,7 +2,9 @@ import Badge from "./components/badges/Badge";
 function App() {
   return (
     <main>
-      <Badge>Badge</Badge>
+      <Badge color="green" shape="pill">
+        Badge
+      </Badge>
     </main>
   );
 }
