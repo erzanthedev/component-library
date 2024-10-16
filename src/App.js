@@ -1,10 +1,8 @@
-import Badge from "./components/badges/Badge";
+import Banner from "./components/banners/Banner";
 function App() {
   return (
     <main>
-      <Badge color="green" shape="pill">
-        Badge
-      </Badge>
+      <Banner />
     </main>
   );
 }
