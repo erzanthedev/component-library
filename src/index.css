@@ -9,8 +9,10 @@ body {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 12px;
   height: 100vh;
 }
 
@@ -74,4 +76,49 @@ main {
 .badge-pink {
   background-color: #fce7f3;
   color: #9d174d;
+}
+
+/* Banner */
+
+.banner {
+  background-color: #ecfdf5;
+  padding: 16px;
+  border-radius: 6px;
+  font-family: Inter;
+  width: Fixed (896px) px;
+  height: Hug (80px) px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.banner > img {
+  width: 16px;
+  height: 16px;
+  color: #34d399;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+.banner-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #065f46;
+  width: 832px;
+  height: 20px;
+  margin: 0 0 8px;
+}
+
+.banner-content {
+  width: Fill (832px) px;
+  height: Hug (48px) px;
+}
+
+.banner-text {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #047857;
+  width: 832px;
+  height: 20px;
+  margin: 0;
 }
