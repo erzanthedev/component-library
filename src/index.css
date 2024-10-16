@@ -85,8 +85,8 @@ main {
   padding: 16px;
   border-radius: 6px;
   font-family: Inter;
-  width: Fixed (896px) px;
-  height: Hug (80px) px;
+  width: 896px;
+  height: 80px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -96,7 +96,6 @@ main {
   height: 16px;
   color: #34d399;
   margin-right: 12px;
-  margin-top: 12px;
 }
 
 .banner-title {
