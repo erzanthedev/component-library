@@ -1,6 +1,6 @@
 import icons from "./icons";
 import { useContext } from "react";
-import { BannerContext } from "../../App";
+import { BannerContext } from "./Banner";
 
 const BannerIcon = () => {
   const status = useContext(BannerContext);

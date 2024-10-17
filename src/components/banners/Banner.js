@@ -1,9 +1,14 @@
-import { useContext } from "react";
-import { BannerContext } from "../../App";
+import { createContext } from "react";
 
-const Banner = ({ children }) => {
-  const status = useContext(BannerContext);
-  return <div className={`banner banner-${status} `}>{children}</div>;
+const BannerContext = createContext();
+export { BannerContext };
+
+const Banner = ({ children, status }) => {
+  return (
+    <BannerContext.Provider value={status}>
+      <div className={`banner banner-${status} `}>{children}</div>
+    </BannerContext.Provider>
+  );
 };
 
 export default Banner;
