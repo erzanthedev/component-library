@@ -1,15 +1,12 @@
 import icons from "../banners/icons";
 
-const Banner = () => {
+const Banner = ({ variant = "multi", status = "neutral", title, text }) => {
   return (
-    <div className="banner banner-error multi">
-      <span className="banner-icon">{icons.warning}</span>
+    <div className={`banner banner-${status} ${variant}`}>
+      <span className="banner-icon">{icons[status]}</span>
       <div className="banner-content">
-        <h2 className="banner-title">Congratulations!</h2>
-        <p className="banner-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-          pariatur, ipsum similique veniam.
-        </p>
+        <h2 className="banner-title">{title}</h2>
+        <p className="banner-text">{text}</p>
       </div>
     </div>
   );
