@@ -90,6 +90,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 10px;
+  overflow-y: scroll;
 }
 
 .banner-icon {
