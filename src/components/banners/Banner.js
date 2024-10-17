@@ -1,11 +1,9 @@
-import { FaCircleCheck } from "react-icons/fa6";
+import icons from "../badges/icons";
 
 const Banner = () => {
   return (
     <div className="banner">
-      <div className="banner-icon">
-        <FaCircleCheck />
-      </div>
+      <span className="banner-icon">{icons.success}</span>
       <div className="banner-content">
         <h6 className="banner-title">Congratulations!</h6>
         <p className="banner-text">
