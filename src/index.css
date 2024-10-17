@@ -99,8 +99,8 @@ main {
 
 .banner-icon > svg {
   color: #34d399;
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
 }
 
 .banner-content {
@@ -108,17 +108,20 @@ main {
   height: 48px;
 }
 
-.banner-title {
+.banner-title,
+.banner-text {
   font-size: 0.875rem;
+  text-align: left;
+}
+
+.banner-title {
   font-weight: 500;
   color: #065f46;
   margin: 0 0 10px;
 }
 
 .banner-text {
-  font-size: 0.875rem;
   font-weight: 400;
-  text-align: left;
   color: #047857;
   margin: 0;
 }
