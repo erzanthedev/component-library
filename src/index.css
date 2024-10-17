@@ -83,7 +83,7 @@ main {
 .banner {
   max-width: 896px;
   height: 80px;
-  background-color: #ecfdf5;
+  background-color: white; /* default */
   border-radius: 6px;
   font-family: Inter;
   padding: 16px;
@@ -116,14 +116,62 @@ main {
 
 .banner-title {
   font-weight: 500;
-  color: #065f46;
+  color: black; /* Default */
   margin: 0 0 10px;
 }
 
 .banner-text {
   font-weight: 400;
-  color: #047857;
+  color: black;
   margin: 0;
+}
+
+/* Color Variants for banner */
+
+.banner-success {
+  background-color: #ecfdf5;
+}
+
+.banner-warning {
+  background-color: #fffbeb;
+}
+
+.banner-error {
+  background-color: #fef2f2;
+}
+
+.banner-neutral {
+  background-color: #eff6ff;
+}
+
+/* Color Variants for banner title  */
+
+.banner-title-success {
+  color: #065f46;
+}
+
+.banner-title-warning,
+.banner-title-error {
+  color: #92400e;
+}
+
+.banner-title-neutral {
+  color: #1e40af;
+}
+
+/* Color Variants for banner text  */
+
+.banner-text-success {
+  color: #047857;
+}
+
+.banner-text-warning,
+.banner-text-error {
+  color: #b45309;
+}
+
+.banner-text-neutral {
+  color: #1c51b9;
 }
 
 /* Color Variants for Icons */
@@ -133,13 +181,13 @@ main {
 }
 
 .banner-icon-warning {
-  color: yellow;
+  color: #fbbf24;
 }
 
 .banner-icon-error {
-  color: red;
+  color: #f87171;
 }
 
 .banner-icon-neutral {
-  color: blue;
+  color: #60a5fa;
 }
