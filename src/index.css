@@ -20,7 +20,7 @@ main {
 
 .badge {
   font-family: Inter, sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 20px;
   padding: 2px 12px;
@@ -81,43 +81,44 @@ main {
 /* Banner */
 
 .banner {
+  max-width: 896px;
+  height: 80px;
   background-color: #ecfdf5;
-  padding: 16px;
   border-radius: 6px;
   font-family: Inter;
-  width: 896px;
-  height: 80px;
+  padding: 16px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
 }
 
-.banner > img {
+.banner-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.banner-icon > svg {
+  color: #34d399;
   width: 16px;
   height: 16px;
-  color: #34d399;
-  margin-right: 12px;
-}
-
-.banner-title {
-  font-size: 14px;
-  font-weight: 500;
-  color: #065f46;
-  width: 832px;
-  height: 20px;
-  margin: 0 0 8px;
 }
 
 .banner-content {
-  width: Fill (832px) px;
-  height: Hug (48px) px;
+  width: 832px;
+  height: 48px;
+}
+
+.banner-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #065f46;
+  margin: 0 0 10px;
 }
 
 .banner-text {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   text-align: left;
   color: #047857;
-  width: 832px;
-  height: 20px;
   margin: 0;
 }
