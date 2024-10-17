@@ -1,8 +1,9 @@
 import Banner from "./components/banners/index";
+
 function App() {
   return (
     <main>
-      <Banner status="warning" variant="multi">
+      <Banner status="warning">
         <Banner.Icon status="warning" />
         <Banner.Title>Congratulations!</Banner.Title>
         <Banner.Text>

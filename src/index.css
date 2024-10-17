@@ -87,8 +87,8 @@ main {
   font-family: Inter;
   padding: 16px;
   display: grid;
-  grid-template: 1fr 1fr / 18px 1fr;
-  gap: 0 12px;
+  grid-template: auto / 18px 1fr;
+  gap: 8px 12px;
 }
 
 .banner-icon {
@@ -97,38 +97,25 @@ main {
 }
 
 .banner-icon > svg {
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
 }
 
 .banner-title,
 .banner-text {
   font-size: 0.875rem;
   width: 832px;
+  margin: 0;
+  color: black; /* Default */
 }
 
 .banner-title {
   font-weight: 500;
-  color: black; /* Default */
-  margin: 0 0 10px;
 }
 
 .banner-text {
   font-weight: 400;
-  color: black;
-  margin: 0;
   grid-column: 2 / 3;
-}
-
-/* Banner Varaint for multi line or single line */
-.banner.multi {
-  height: 80px;
-  overflow-y: auto;
-}
-
-.banner.single {
-  height: 52px;
-  overflow-y: hidden;
 }
 
 /* Color Variants for banner */
