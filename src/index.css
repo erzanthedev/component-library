@@ -146,48 +146,48 @@ main {
 
 /* Color Variants for banner title  */
 
-.banner-title-success {
+.banner-success .banner-title {
   color: #065f46;
 }
 
-.banner-title-warning,
-.banner-title-error {
+.banner-warning .banner-title,
+.banner-error .banner-title {
   color: #92400e;
 }
 
-.banner-title-neutral {
+.banner-neutral .banner-title {
   color: #1e40af;
 }
 
 /* Color Variants for banner text  */
 
-.banner-text-success {
+.banner-success .banner-text {
   color: #047857;
 }
 
-.banner-text-warning,
-.banner-text-error {
+.banner-warning .banner-text,
+.banner-error .banner-text {
   color: #b45309;
 }
 
-.banner-text-neutral {
+.banner-neutral .banner-text {
   color: #1c51b9;
 }
 
 /* Color Variants for Icons */
 
-.banner-icon-success {
+.banner-success .banner-icon {
   color: #34d399;
 }
 
-.banner-icon-warning {
+.banner-warning .banner-icon {
   color: #fbbf24;
 }
 
-.banner-icon-error {
+.banner-error .banner-icon {
   color: #f87171;
 }
 
-.banner-icon-neutral {
+.banner-neutral .banner-icon {
   color: #60a5fa;
 }
