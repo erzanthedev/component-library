@@ -1,16 +1,11 @@
-import uploadIcon from "./cloud-upload.svg";
-
-const Card = ({ icon, title, description }) => {
+const Card = ({ icon, children }) => {
   return (
     <article className="card">
       <div className="card-container">
         <div className="card-wrapper">
           <div className="card-content">
-            <figure className="card-icon">{icon}</figure>
-            <div className="card-details">
-              <h2 className="card-title">{title}</h2>
-              <p className="card-description">{description}</p>
-            </div>
+            {icon && <figure className="card-icon">{icon}</figure>}
+            <div className="card-details">{children} </div>
           </div>
         </div>
       </div>

@@ -1,14 +1,16 @@
-import Card from "./components/cards/card";
-import { FaComputer } from "react-icons/fa6";
+import Card from "./components/cards/index.js";
+import uploadCloud from "./components/cards/cloud-upload.svg";
 
 function App() {
   return (
     <main>
-      <Card
-        icon={<FaComputer />}
-        title="Clean Development"
-        description="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
-      />
+      <Card icon={<img src={uploadCloud} alt="Upload cloud icon" />}>
+        <Card.Title>Clean Development</Card.Title>
+        <Card.Description>
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+          magna sit morbi lobortis.
+        </Card.Description>
+      </Card>
     </main>
   );
 }
