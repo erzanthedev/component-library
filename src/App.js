@@ -8,7 +8,10 @@ function App() {
         <Card.Title>Clean Development</Card.Title>
         <Card.Description>
           Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
-          magna sit morbi lobortis.
+          magna sit morbi Ac tincidunt sapien vehicula erat auctor pellentesque
+          rhoncus. Et magna sit morb Ac tincidunt sapien vehicula erat auctor
+          pellentesque rhoncus. Et magna sit morbi lobortis. i lobortis.
+          lobortis.
         </Card.Description>
       </Card>
     </main>

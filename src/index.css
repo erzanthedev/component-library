@@ -188,14 +188,12 @@ main {
 
 .card {
   width: 384px;
-  height: 232px;
   padding-top: 24px;
 }
 
 .card-container {
   background-color: #f9fafb;
   width: 100%;
-  height: 208px;
   padding: 0px 24px 32px 24px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
@@ -207,7 +205,6 @@ main {
 
 .card-wrapper {
   width: 336px;
-  height: 176px;
 }
 
 .card-content {
@@ -247,7 +244,7 @@ main {
 
 .card-details {
   width: 336px;
-  height: 120px;
+  padding: 48px 24px 0;
 }
 
 .card-title,
@@ -261,14 +258,13 @@ main {
   color: #111827;
   height: 28px;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
   margin: 10px 0;
 }
 
 .card-description {
   color: #6b7280;
-  height: 72px;
   font-size: 1rem;
   font-weight: 300;
   line-height: 24px;
