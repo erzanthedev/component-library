@@ -1,23 +1,15 @@
 import uploadIcon from "./cloud-upload.svg";
 
-const Card = () => {
+const Card = ({ icon, title, description }) => {
   return (
     <article className="card">
       <div className="card-container">
         <div className="card-wrapper">
           <div className="card-content">
-            <figure className="card-icon">
-              <img
-                src={uploadIcon}
-                alt="cloud upload icon for easy deployment"
-              />
-            </figure>
+            <figure className="card-icon">{icon}</figure>
             <div className="card-details">
-              <h2 className="card-title">Easy Deployment</h2>
-              <p className="card-description">
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                Et magna sit morbi lobortis.
-              </p>
+              <h2 className="card-title">{title}</h2>
+              <p className="card-description">{description}</p>
             </div>
           </div>
         </div>

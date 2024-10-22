@@ -233,6 +233,7 @@ main {
   transform: translateX(-50%);
 }
 
+.card-icon svg,
 .card-icon img {
   width: 24px;
   height: 24px;
