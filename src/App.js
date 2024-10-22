@@ -3,7 +3,7 @@ import Card from "./components/cards/index.js";
 function App() {
   return (
     <main>
-      <Card>
+      <Card iconBgColor="indigo">
         <Card.Title>Clean Development</Card.Title>
         <Card.Description>
           Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
