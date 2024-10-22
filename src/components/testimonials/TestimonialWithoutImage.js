@@ -3,8 +3,8 @@ const TestimonialWithoutImage = () => {
     <div className="testimonial testimonial--no-image">
       <div className="testimonial__wrapper">
         <div className="testimonial__content">
-          <div className="testimonia__leading-content">
-            <img src="" className="testimonia__logo" alt="empty logo" />
+          <div className="testimonial__leading-content">
+            <img src="" className="testimonial__logo" alt="empty logo" />
             <p className="testimonial__text">
               “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
               expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
