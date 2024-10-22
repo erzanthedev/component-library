@@ -1,10 +1,4 @@
-import uploadCloud from "./cloud-upload.svg";
-
-const Card = ({
-  icon = <img src={uploadCloud} alt="Upload cloud icon" />,
-  children,
-  iconBgColor,
-}) => {
+const Card = ({ icon, children, iconBgColor }) => {
   const bgColor = {
     backgroundColor: iconBgColor ? iconBgColor : "#3f75fe",
   };
