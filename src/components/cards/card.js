@@ -1,4 +1,9 @@
-const Card = ({ icon, children }) => {
+import uploadCloud from "./cloud-upload.svg";
+
+const Card = ({
+  icon = <img src={uploadCloud} alt="Upload cloud icon" />,
+  children,
+}) => {
   return (
     <article className="card">
       <div className="card-container">
