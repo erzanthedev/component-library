@@ -270,3 +270,113 @@ main {
   font-weight: 300;
   line-height: 24px;
 }
+
+/* Testimonial */
+
+.testimonial {
+  width: 100%;
+  max-width: 1358px;
+  background-color: #f9fafb;
+  background-image: url(./components/testimonials/dot-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: bottom left;
+  padding: 96px 39px 112px;
+}
+
+.testimonial--no-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial__wrapper {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial__content {
+  width: 100%;
+  max-width: 1216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.testimonial__leading-content {
+  width: 100%;
+  max-width: 1216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.testimonial__logo {
+  width: 180px;
+  height: 32px;
+}
+
+.testimonial__text {
+  width: 100%;
+  max-width: 768px;
+  color: #111827;
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.testimonial__cite {
+  width: 100%;
+  max-width: 1216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial__cite-info {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial__cite-name {
+  width: 120px;
+  height: 24px;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #111827;
+}
+
+.testimonial__cite-divider {
+  font-family: Inter, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #2e59f3;
+}
+
+.testimonial__cite-title {
+  width: 130px;
+  height: 24px;
+  color: #6b7280;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
